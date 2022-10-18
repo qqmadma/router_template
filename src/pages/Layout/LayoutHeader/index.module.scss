@@ -1,0 +1,26 @@
+$navBarHeight: 60px;
+
+.container {
+  height: $navBarHeight;
+  border-bottom: 1px solid #eee;
+  .main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 210px;
+    max-width: 1240px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .navbar-left {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    max-width: 250px;
+  }
+  .navbar-right {
+    
+  }
+}
