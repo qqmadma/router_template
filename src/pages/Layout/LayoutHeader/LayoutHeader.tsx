@@ -14,7 +14,7 @@ function LayoutHeader() {
 
         <div className={styles['navbar-right']}>
           <span style={{ marginRight: 10 }}>xxx</span>
-          <Avatar size={34} style={{ backgroundColor: '#87D068' }}>M</Avatar>
+          <Avatar size={34} className={styles.avatar}>M</Avatar>
         </div>
       </div>
     </div>

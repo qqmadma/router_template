@@ -1,5 +1,9 @@
-@use '../assets/common';
-
 .container {
   height: 1000px;
+
+  .main {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
 }

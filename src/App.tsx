@@ -1,11 +1,9 @@
 import React from 'react';
 import './App.css';
-import Layout from './pages/Layout/Layout';
+import renderRoutes from './router'
 
 function App() {
-  return (
-    <Layout></Layout>
-  );
+  return renderRoutes();
 }
 
 export default App;
